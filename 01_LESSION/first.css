@@ -1,0 +1,18 @@
+/* 
+css rule/rule:
+
+selector{
+    property: property value;
+} 
+property: property value ==> declaration
+*/
+
+p{
+    color:purple;
+    font-size:30px
+}
+
+/* selector ==> p
+property ==> color,font-size
+property value ==>purple,20px
+declaration ==>color:purple,font-size:20px */

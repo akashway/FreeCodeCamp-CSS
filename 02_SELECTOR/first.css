@@ -1,0 +1,52 @@
+/* Body element is parent to all element whenever we set font size each other element inheritate that property */
+/* But only property related to font and typography are inherited(color,line-height,font-size etc) */
+/* Other property not inherited eg: border:1px solid black */
+
+/* If we write border under universal selector then it is applied to all elements 
+but it is not a inheritance example because it select each elements
+Example: 
+
+*{
+    border:2px solid black
+}
+*/
+
+/* Form element also do not inheritate typography or font-size things */
+/* We can do it below mentined approach */
+/* 
+button,input,textarea,select{
+    font:inherit
+
+} */
+
+/* !important overide the the all previous declartion and apply its property  */
+
+body{
+    font-size: 22px;
+}
+
+h1,h2{
+    color:blue
+}
+
+/* p span{
+    color: gold;
+    text-transform: uppercase;
+} */
+
+.hightlight{
+    background-color: gold;
+    text-transform: uppercase;
+}
+
+p{
+    color: purple;
+}
+
+.grey{
+    color: grey;
+}
+
+#second{
+    font-style: italic;
+}
