@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+
+% are always relative to some other unit
+
+header{
+    width: 50%;
+    border: 2px solid blue;
+} 
+*/
+
+body{
+/* 
+width:100vw;
+As content grow vertical we get vertical scroll it is good but with 100vw 
+we are getting horizal scroll bar that is not good  
+*/
+    width: 100%; 
+/* It will remove horizonal scroll even we don't have to mention by deafult body have 100% width */
+}
+
+h1{
+    border: 2px dashed red;
+    width: 50%;   
+    font-size: 2rem;
+    padding: 0.5em;
+}
+/* 
+em:font size of the parent the case of typographical properties like font-size and
+font-size of the element itself in the case of the other properties like width.
+Here padding 0.5em is applied with respect to font-size 2rem which is twise of root element 
+*/
+
+
+
+main{
+    font-size: 2rem; 
+}
+/* font-size: 2rem; It will look into root element(html) and take its size and double the font-size */
+
+
+
+p{
+    font-size: 2rem;
+    width:40ch;
+}
+/* font-size: 2rem; It will look into root element(html) and take its size and double the font-size */
+/* font-size: 2em; It will look into immediate parent(main) and take its size and double it */
+/* em:font size of the parent the case of typographical properties like font-size and
+font-size of the element itself in the case of the other properties like width */
