@@ -1,0 +1,48 @@
+/* 
+RGB:
+color: rgb(255,0,0); Red
+color: rgb(0,255,0); Green
+color: rgb(0,0,255); Blue
+color: rgb(0,0,0); Black
+color: rgb(255,255,255); White 
+
+alpha Channel
+color:rgb(0,0,0,1); //Text visible fully
+color:rgb(0,0,0,0); //Color not visible 
+Color:rgb(0,0,0,0.5); //50% transparency
+*/
+
+/* 
+Hexa
+color: #FF0000 ; Red
+color: #00FF00; Green
+color: #0000FF; Blue
+color: #000000; Black
+color: #FFFFFF ; White 
+color: #000; Black
+color: #FFF; White
+color: #F00; Red
+color: #0F0; Green
+color: #00F; Blue
+
+*/
+
+/*
+hue saturation lightness
+hsl(0-360,0%-100%,0%-100%)
+*/
+
+
+body{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: papayawhip;
+    color:darkblue;
+}
+
+p{
+    color:#333;
+    /* color:#333333 */
+}
+
