@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Lemon', serif;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    /* cursor:not-allowed; */
+    color:blue
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover,a:focus{
+    /* color:dodgerblue; */
+    opacity: 0.8;
+}
+
+a:active{
+    color:red;
+}
