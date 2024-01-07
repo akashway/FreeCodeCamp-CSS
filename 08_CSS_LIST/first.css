@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    padding: 5% 10%;
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 
+list-style-type: lower-alpha;
+list-style-type: decimal;
+list-style-type: decimal-leading-zero;
+list-style-type: disc;
+list-style-type: upper-roman;
+*/
+
+ol{
+    /* list-style-type: lower-alpha */
+    list-style-type: lower-alpha;
+    padding: 0;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    /* list-style-position: outside; */
+    list-style-position:inside;
+    color:#00f;
+    line-height: 1.6;
+    list-style-image: url("data:image/png;base64,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");
+    list-style: square url("") inside;
+}
+
+/* li{
+    color:red
+} */
+
+/* ul li{
+    color:red;
+} */
+
+/* Lets access 2nd li element of ul using pseudo class */
+
+ul li:nth-child(2){
+    color:red;
+}
+
+/* ul li:nth-child(even){
+    color:red;
+}
+
+ul li:nth-child(odd){
+    color:red;
+} */
+
+/* Pseudo element */
+
+ul ::marker{
+    color:red;
+    font-family: fantasy;
+    font-size: 1.2em;
+    content: "Only 5$ >>";
+}
