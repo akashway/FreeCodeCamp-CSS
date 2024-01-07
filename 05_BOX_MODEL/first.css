@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* 
+
+margin: 25px 50px 75px 100px;
+top margin is 25px
+right margin is 50px
+bottom margin is 75px
+left margin is 100px 
+
+margin: 25px 50px 75px;
+top margin is 25px
+right and left margin are 50px
+bottom margin is 75px
+
+margin: 25px 50px;
+top and bottom margin are 25px
+right and left margin are 50px
+*/
+
+/* 
+border: dashed black; by default 3px
+border-top: 2px solid blue;
+border-bottom: 2px solid yellow;
+border-left: 2px dotted red;
+border-right: 2px dotted pink;
+border-top-color: azure;
+border-top-width: 2px;
+border-top-style: double;
+*/
+
+
+
+.container{
+    border: 2px dashed black;
+    font-size: 1.5rem;
+    /* margin: 1em; */
+    /* margin-top: 1em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em; */
+    margin:1.5em;
+    padding: 1em;
+    outline: 5px solid blue;
+    /* outline-offset: 5px; */
+    outline-offset: -10px;
+}
+
+.circle{
+    margin: auto ;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: gold;
+    width:100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
